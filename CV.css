@@ -1,0 +1,61 @@
+.resume {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 270px 320px;
+    grid-template-areas: 
+    "name competences"
+    "experience competences";
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.name img {
+    padding: 5px;
+    width: 150px;
+    margin-left: 50%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 40%;
+}
+.name {
+    border-style: solid;
+    grid-area: name;
+    text-align: left;
+    text-decoration: underline;
+}
+.experience {
+    border-style: solid;
+    grid-area: experience;
+}
+
+.competences {
+    border-style: solid;
+    grid-area: competences;
+} 
+h1 {
+    position: absolute;
+    margin-left: 5%;
+}
+.id {
+    font-size: 30px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.id image {
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    margin-left: 10%;
+}
+.competences img {
+    padding: 5px;
+    width: 100px;
+}
+.competences p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.contact {
+    margin-left: 25%;
+    margin-top: 10%;
+}
